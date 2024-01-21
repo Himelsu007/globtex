@@ -1,0 +1,46 @@
+* { margin:0px; padding:0px; box-sizing:border-box;  }
+
+:root  {  
+    /* COLOR - PALETTES  */
+
+            --main-bg:#F9F9F9;
+            --main-gray:#F7F7F7;
+            --main-blue:#627EEA;
+            --white:#FFFFFF;
+            --font-01:' ';
+            --font-02:' ';
+            --font-03:' ';
+            --font-04:' ';
+            --font-05:' ';
+
+}
+
+html,body { background-color:var(--main-bg); }
+
+header { border:1px solid black; height:100px; display:flex; align-items:center; justify-content:space-around;}
+header > button { height:49px; width:168px; }
+#logo_container { border:1px solid black; height:26px; width:134.28px;      }
+#cta_links_container { border:1px solid black; height:66px; width:631px; }
+
+
+                                                    /* ------------------------------------- Section 01 --------------------------------------- */
+
+#section_01 { border:1px solid rgb(0, 30, 255); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+#section_01 article { border:1px solid black; width:1065.75px; height:389px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:4px; }
+
+
+                                                    /* ------------------------------------- MAP BANNER --------------------------------------- */
+
+#map_banner {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+#map_banner > article { width:1472.06px; height:478.8px; border:1px solid rgb(255, 0, 187); }
+
+                                                    /* ------------------------------------- FEATURES AND COMMUNICATION --------------------------------------- */
+
+#features_communication {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+#features_communication > article { width:1388px; height:526px; background-color:var(--white); border-radius:20px; padding:40px; display:flex; align-items:center; justify-content:space-between;}
+
+
+                                                    /* ------------------------------------- FEATURES AND COMMUNICATION --------------------------------------- */
+
+                                                    #features_communication {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+                                                    #features_communication > article { width:1388px; height:526px; background-color:var(--white); border-radius:20px; padding:40px; display:flex; align-items:center; justify-content:space-between;}juelma tainara de figueiredo correia
