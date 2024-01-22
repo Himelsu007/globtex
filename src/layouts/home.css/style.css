@@ -16,11 +16,12 @@
 }
 
 html,body { background-color:var(--main-bg); }
+a { text-decoration:none; color:#677680; }
 
 header { border:1px solid black; height:100px; display:flex; align-items:center; justify-content:space-around;}
 header > button { height:49px; width:168px; }
 #logo_container { border:1px solid black; height:26px; width:134.28px;      }
-#cta_links_container { border:1px solid black; height:66px; width:631px; }
+#cta_links_container { border:1px solid black; height:66px; width:631px; align-items:center; justify-content:space-around; display:flex;}
 
 
                                                     /* ------------------------------------- Section 01 --------------------------------------- */
@@ -40,7 +41,25 @@ header > button { height:49px; width:168px; }
 #features_communication > article { width:1388px; height:526px; background-color:var(--white); border-radius:20px; padding:40px; display:flex; align-items:center; justify-content:space-between;}
 
 
-                                                    /* ------------------------------------- FEATURES AND COMMUNICATION --------------------------------------- */
+                                                    /* ------------------------------------- FORGING STRONG --------------------------------------- */
 
-                                                    #features_communication {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
-                                                    #features_communication > article { width:1388px; height:526px; background-color:var(--white); border-radius:20px; padding:40px; display:flex; align-items:center; justify-content:space-between;}juelma tainara de figueiredo correia
+#forging_strong_container {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+#forging_strong_container > article { width:1232px; height:1004px; border:1px solid rgb(255, 0, 187); padding:40px; display:flex; align-items:center; justify-content:space-between; flex-direction:column;}
+
+#forging_container_A { border:1px solid black; height:422px; width:1227px; display:flex; align-items:center; justify-content:space-between;  }
+#forging_container_B { border:1px solid black; height:422px; width:1227px; display:flex; align-items:flex-start; justify-content:space-between;  }
+
+#forging_container_A1 { border:1px solid hotpink; width:569px; height:422px; border-radius:20px; }
+#forging_container_A2 { border:1px solid hotpink; width:458px; height:343.46px; display:flex; align-items:flex-start; justify-content:space-between; flex-direction:column; }
+
+#forging_container_B1 { border:1px solid hotpink; width:503px; height:343.46px; display:flex; align-items:center; justify-content:center;}
+#forging_container_B2 { border:1px solid hotpink; width:839px; height:422px; display:flex; align-items:flex-start; justify-content:space-between; flex-direction:column; }
+
+                                                    /* ------------------------------------- FREQUENTLY ASKED QUESTIONS --------------------------------------- */
+
+#faq_container {  border:1px solid rgb(0, 0, 0); display:flex; align-items:center; justify-content:center; margin-top:85px; padding:10px; }
+#faq_container > article { width:1140px; height:1004px; border:1px solid rgb(0, 60, 255); padding:40px; display:flex; align-items:center; justify-content:space-between; flex-direction:column; }
+
+
+                                                    /* ------------------------------------- FOOTER --------------------------------------- */
+footer { background-color:var(--white); height:703px; width:1512px; }
