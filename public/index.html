@@ -113,17 +113,27 @@
             <div id="forging_container_A"> 
                 <div id="forging_container_A1"> <img src="../src/assets/Frame 36.png" alt=""> </div>
                 <div id="forging_container_A2"> 
-                    <button id="global_reach"> Global Reach </button>
+                    <button class="global_reach"> Global Reach </button>
                     <h1 style="color: #0B0B0B; font-size: 42px; font-family: Neue Montreal; font-weight: 500; word-wrap: break-word"> 
                         Forging Strong Connections Worldwide 
                     </h1>
                     <p style="color: #606060; font-size: 18px; font-family: Neue Montreal; font-weight: 400; line-height: 25.56px; letter-spacing: 0.36px; word-wrap: break-word"> 
-                        The platform seamlessly connects users globally while <br> nurturing strong local communities, offering a unique <br> balance between reaching a global audience. </p>
+                        The platform seamlessly connects users globally while <br> nurturing strong local communities, offering a unique <br> balance between reaching a global audience. 
+                    </p>
                     <div id="single_border_button"> Learn More  </div>
                 </div>
             </div>
             <div id="forging_container_B"> 
-                <div id="forging_container_B1"> </div>
+                <div id="forging_container_B1"> 
+                    <button class="global_reach"> Global Reach </button>
+                    <h1 style="color: #0B0B0B; font-size: 42px; font-family: Neue Montreal; font-weight: 500; word-wrap: break-word"> 
+                        Empowerment for Businesses and Individuals
+                    </h1>
+                    <p style="color: #606060; font-size: 18px; font-family: Neue Montreal; font-weight: 400; line-height: 25.56px; letter-spacing: 0.36px; word-wrap: break-word"> 
+                        Businesses and individuals can thrive on a global scale, empowered by the platform to expand their reach and connect with like-minded individuals worldwide. 
+                    </p>
+                    <div id="single_border_button"> Learn More  </div>
+                </div>
                 <div id="forging_container_B2"> <img src="../src/assets/Frame 37.png" alt=""> </div>
             </div>
         </article>
@@ -131,18 +141,46 @@
 
     <section id="faq_container">
         <article>
+            <button class="global_reach"> Global Reach </button>
+            <h1> Frequently Asked Questions  </h1>
+            <img src="../src/assets/Frame 45.png" alt="">
+            <div class="question_container"> 
+                <h3 style="color: #606060; font-size: 24px; font-family: Neue Montreal; font-weight: 500; line-height: 34.08px; letter-spacing: 0.48px; word-wrap: break-word"> TEST </h3> 
+                <span> <img src="../src/assets/mingcute_down-line.svg"> </span> 
+            </div>
+            <div class="question_container"> 
+                <h3 style="color: #606060; font-size: 24px; font-family: Neue Montreal; font-weight: 500; line-height: 34.08px; letter-spacing: 0.48px; word-wrap: break-word"> TEST </h3> 
+                <span> <img src="../src/assets/mingcute_down-line.svg"> </span> 
+            </div>
+            <div class="question_container"> 
+                <h3 style="color: #606060; font-size: 24px; font-family: Neue Montreal; font-weight: 500; line-height: 34.08px; letter-spacing: 0.48px; word-wrap: break-word"> TEST </h3> 
+                <span> <img src="../src/assets/mingcute_down-line.svg"> </span> 
+            </div>
+
 
         </article>
     </section>
 
     <section id="connect_container">
         <article>
-
+            
         </article>
     </section>
 
     <footer>
-        
+        <article>
+
+        </article>
     </footer>
 </body>
+
+
+<script>
+    function toggleAnswer(questionContainer) {
+      const answerContainer = questionContainer.nextElementSibling;
+      questionContainer.classList.toggle('open');
+      answerContainer.style.display = answerContainer.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+
 </html>
